@@ -1,31 +1,29 @@
 package ObjectClass.equals;
 
 public class Person {
-    private String name;
-    private int age;
+    String name;
+    int age;
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
     @Override
-    public boolean equals(Object o) {
-        if (o == this) {
+    public boolean equals(Object obj) {
+        if (obj == this) {
             return true;
         }
-        if (!(o instanceof Person)) {
+        if (!(obj instanceof Person)) {
             return false;
         }
-        Person p = (Person) o;
-        return p.name.equals(name) && p.age == age;
+        Person p = (Person) obj;
+        return p.name.equals(this.name) && p.age == age;
     }
-
     public static void main(String[] args) {
 
-        Person p = new Person("Harry",23);
-        System.out.println(p.equals(p));
+        Person p1 = new Person("Harry",23);
 
-        Person p1 = new Person("Parasu",23);
-        System.out.println(p.equals(p1));
+        Person p2 = new Person("Prince",23);
+        System.out.println(p1.equals(p2));
     }
 }
 
