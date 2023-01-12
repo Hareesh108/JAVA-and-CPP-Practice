@@ -39,10 +39,14 @@ public class ArrayListIterator {
         obj3.add(10);
         obj3.add(20);
         obj3.add(30);
+
         Iterator<Integer> items = obj3.iterator();
+        System.out.println(items);
         while (items.hasNext()){
             System.out.println(items.next());
         }
+
+        obj3.forEach(index -> System.out.println(index));
 
 
     }

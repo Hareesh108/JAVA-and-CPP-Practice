@@ -14,14 +14,17 @@ public class ExtraMethods {
         System.out.println(obj);
 
 //        IMP Methods
+        obj.addFirst(55);
         obj.addFirst(25);
         obj.addLast("mango");
+        System.out.println(obj);
         obj.removeFirst();
         obj.removeLast();
         obj.removeFirstOccurrence(true);
         obj.removeLastOccurrence('a');
         System.out.println(obj.getFirst());
         System.out.println(obj.getLast());
+        obj.clear();
         System.out.println(obj);
     }
 }
