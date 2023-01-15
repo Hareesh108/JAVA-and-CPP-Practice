@@ -14,10 +14,10 @@ public class TreeMapMethods {
         TreeMap<Integer, String> map = new TreeMap<>();
 
 // Adding key-value pairs
-        map.put(1,"Apple");
-        map.put(2,"Mango");
         map.put(3,"Banana");
         map.put(4,"Kiwi");
+        map.put(1,"Apple");
+        map.put(2,"Mango");
         map.putAll(map1);
         System.out.println(map);
 

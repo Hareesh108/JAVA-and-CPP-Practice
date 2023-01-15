@@ -9,5 +9,7 @@ public class Civil extends Collage{
         Civil obj = new Civil();
         obj.Name();
         obj.DeptName();
+
+
     }
 }

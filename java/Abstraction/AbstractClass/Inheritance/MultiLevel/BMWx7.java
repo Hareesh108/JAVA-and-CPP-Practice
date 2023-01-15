@@ -1,6 +1,6 @@
 package Abstraction.AbstractClass.Inheritance.MultiLevel;
 
-public class BMWx7 extends BMW{
+class BMWx7 extends BMW{
 
     public void drift(){
         super.price();

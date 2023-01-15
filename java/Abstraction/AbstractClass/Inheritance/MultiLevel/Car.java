@@ -1,6 +1,6 @@
 package Abstraction.AbstractClass.Inheritance.MultiLevel;
 
-public abstract class Car {
+abstract class Cars {
 
     abstract public void price();
 }

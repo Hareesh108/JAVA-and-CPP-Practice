@@ -1,6 +1,6 @@
 package Abstraction.Interface.Combine;
 
-public class Student extends Collage implements Medical, Engineering {
+public class Student implements Medical, Engineering {
 
     public void study(){
         System.out.println("Studying");
