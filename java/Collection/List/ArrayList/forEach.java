@@ -2,8 +2,15 @@ package Collection.List.ArrayList;
 
 import java.util.*;
 
-public class forEach {
+public class forEach extends Object{
     public static void main(String[] args) {
+
+            int a = 10;
+            Integer obj55 = Integer.valueOf(a);
+            System.out.println(obj55.toString());
+
+        forEach obj11 = new forEach();
+        System.out.println(obj11.toString());
 
         List<String> words = new ArrayList<>();
         words.add("hello");

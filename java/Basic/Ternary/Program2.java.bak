@@ -1,0 +1,11 @@
+class Program2 
+{
+	public static void main(String[] args) 
+	{
+		int num = 10;
+		String s = "Even";
+		String p = "Odd";
+		String res = (num % 2 == 0)?s:p;
+		System.out.println(res);
+	}
+}
